@@ -1,4 +1,3 @@
-//
 const CLogger = function(serviceName) {
 	this.serviceName = serviceName;
 	this.INFO = 4
@@ -623,4 +622,3 @@ catch (error) {
 	Logger.log(Logger.WARN, 'Notification failed: ' + error);
 	throw 'Sending failed: ' + error;
 }
-//
